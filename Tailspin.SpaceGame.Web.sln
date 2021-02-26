@@ -1,7 +1,24 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tailspin.SpaceGame.Web", "Tailspin.SpaceGame.Web\Tailspin.SpaceGame.Web.csproj", "{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tailspin.SpaceGame.Web", "Tailspin.SpaceGame.Web\Tailspin.SpaceGame.Web.csproj", "{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tailspin.SpaceGame.Web.UITests", "Tailspin.SpaceGame.Web.UITests\Tailspin.SpaceGame.Web.UITests.csproj", "{2CF63A22-0EFC-4B03-AF1C-2611B739A260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0473A52F-A86F-4041-89C5-DDCAE001A660}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		gulpfile.js = gulpfile.js
+		LICENSE = LICENSE
+		LICENSE-CODE = LICENSE-CODE
+		package-lock.json = package-lock.json
+		package.json = package.json
+		README.md = README.md
+		SECURITY.md = SECURITY.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +30,15 @@ Global
 		{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0C4E31E-AC75-4F39-9F59-0AA19D9B8F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF63A22-0EFC-4B03-AF1C-2611B739A260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF63A22-0EFC-4B03-AF1C-2611B739A260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF63A22-0EFC-4B03-AF1C-2611B739A260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF63A22-0EFC-4B03-AF1C-2611B739A260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA00EEA8-BA34-4C77-9586-4ED90F2ABF97}
 	EndGlobalSection
 EndGlobal
